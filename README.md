@@ -8,7 +8,7 @@
 ## 两套工具  
 > 1. 使用Scikit-learn和基于或兼容Scikit-learn的相关工具来实现  
 > 2. 使用Pyspark和基于或兼容Pyspark的相关工具来实现
->>> a.Pyspark ML自带的Logistic Regression, LinearSVC, RandomForest, Naive Bayes, GBT等分类器自身带有一个参数weightCOL用于解决非均衡数据的问题
+>>> a.Pyspark ML自带的Logistic Regression, LinearSVC, RandomForest, Naive Bayes, GBT等分类器自身带有一个参数weightCOL用于解决非均衡数据的问题  
 >>> b.Pyspark ML缺少与之对应的第三方特征选择工具，相比scikit-learn基于scikit-learn-contrib的强大生态，Pyspark ML的功能有些单薄  
 >>> c.正在寻找能够使scikit-learn并行运算的第三方库
 ## 注意  
