@@ -8,6 +8,7 @@
 ## 两套工具  
 > 1. 使用Scikit-learn和基于或兼容Scikit-learn的相关工具来实现  
 > 2. 使用Pyspark和基于或兼容Pyspark的相关工具来实现
->>>  发现
+>>> Pyspark ML自带的Logistic Regression, LinearSVC, RandomForest, Naive Bayes, GBT等分类器自身带有一个参数weightCOL用于解决非均衡数据的问题
+>>>  
 ## 注意  
 > github有时候可能无法正常显示JupyterNotebook文件，此时请在浏览器中打开https://nbviewer.jupyter.org/ ，然后将github中.ipynb文件的地址复制到搜索框中，然后点'go',进行浏览
