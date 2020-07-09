@@ -1,4 +1,4 @@
-# 问题：[Kaggle信用卡反欺诈问题](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+# 问题：[Kaggle信用卡反欺诈检测](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 > 项目简单描述：运用机器学习方法对信用卡的欺诈交易进行检测  
 ## 数据集  
 > 数据集是典型的非均衡数据集，数据所含类别各自所占比例差异很大
