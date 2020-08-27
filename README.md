@@ -9,7 +9,7 @@
 > 4. DL -- unsupervised  
 ## Tools  
 > 1. ML  
->>> 1). Main: scikit-learn + imbalanced learn + xgboost + lightgbm
+>>> 1). Main: scikit-learn + imbalanced learn + xgboost + lightgbm  
 >>> 2). Others: category_encoders(for categorical feature encoding) + borutapy(feature selection) + hyperopt(hyperparameters tuning)
 > 2. DL  
 >>> 1). Main: pytorch(neural net design) + skorch(trainining)  
