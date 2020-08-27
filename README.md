@@ -9,7 +9,7 @@
 > 4. DL -- unsupervised  
 ## Tools  
 > 1. ML  
->> I. scikit-learn + imbalanced learn + xgboost + lightgbm
+>>> I. scikit-learn + imbalanced learn + xgboost + lightgbm
 > 1. scikit-learn + imbalanced learn + xgboost + lightgbm + borutapy(for feature selection)  
 > 2. pytorch(neural net design
 > 2. 使用Pyspark和基于或兼容Pyspark的相关工具来实现
