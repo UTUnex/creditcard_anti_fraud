@@ -18,6 +18,6 @@
 > 3. Pyspark (future)  
 ## Code fast overview  
 > [Code for ml classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/ml/supervised/with_feature_scaling_with_feature_selection.ipynb)  
-> [Code for dl classification]()  
+> [Code for dl classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/dl/supervised/nni/main.py)  
 ## Attention  
 > Sometimes github cannot display JupyterNotebook. Please use nbviewer.
