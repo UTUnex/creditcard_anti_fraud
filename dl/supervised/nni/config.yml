@@ -1,0 +1,29 @@
+authorName: UTUnex
+experimentName: Anti_fraud_skorch-classification
+trialConcurrency: 1
+maxExecDuration: 5h
+maxTrialNum: 1000
+#choice: local, remote
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+#choice: true, false
+useAnnotation: false
+tuner:
+  #choice: TPE, Random, Anneal, Evolution, BatchTuner, MetisTuner
+  builtinTunerName: TPE
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+  gpuIndices: '0'
+# advisor:
+#   builtinAdvisorName: Hyperband
+#   classArgs:
+#     optimize_mode: maximize
+#     # 
+#     R: 100
+#     eta: 3
+#   gpuIndices: '0'  
+trial:
+  command: python main.py
+  codeDir: .
+  gpuNum: 1

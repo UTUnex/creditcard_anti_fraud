@@ -1,0 +1,23 @@
+{
+    "hidden_units": {
+        "_type": "randint",
+        "_value": [
+            2,
+            29
+        ]
+    },
+    "dropout": {
+        "_type": "uniform",
+        "_value": [
+            0.1,
+            0.5
+        ]
+    },
+    "lr": {
+        "_type": "loguniform",
+        "_value": [
+            1e-3,
+            1e-1
+        ]
+    }
+}
