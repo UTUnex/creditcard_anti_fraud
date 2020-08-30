@@ -17,6 +17,7 @@
 >>> 3). Potential: optuna(tuning), wandb(tuning + visualization & monitoring),ray tune-sklean(tuning)
 > 3. Pyspark (future)  
 ## Code fast overview  
-> [Code](https://nbviewer.jupyter.org/github/UTUnex/creditcard_anti_fraud_zh_CN/blob/master/%E6%9C%89%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/with_feature_scaling_with_feature_selection.ipynb)  
+> [Code for ml classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/ml/supervised/with_feature_scaling_with_feature_selection.ipynb)  
+> [Code for dl classification]()  
 ## Attention  
 > Sometimes github cannot display JupyterNotebook. Please use nbviewer.
