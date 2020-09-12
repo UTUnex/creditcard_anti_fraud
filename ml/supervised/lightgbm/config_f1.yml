@@ -1,0 +1,38 @@
+authorName: UTUnex
+experimentName: Anti_fraud_lgbm-classification
+trialConcurrency: 1
+maxExecDuration: 8h
+maxTrialNum: 160
+#choice: local, remote
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+#choice: true, false
+useAnnotation: false
+
+tuner:
+  #choice: TPE, Random, Anneal, Evolution, BatchTuner, MetisTuner
+  builtinTunerName: TPE
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+  gpuIndices: '0' 
+
+# advisor:
+#   builtinAdvisorName: BOHB
+#   classArgs:
+#     optimize_mode: maximize
+#     min_budget: 1
+#     max_budget: 27
+#     eta: 3
+#     min_points_in_model: 7
+#     top_n_percent: 15
+#     num_samples: 64
+#     random_fraction: 0.33
+#     bandwidth_factor: 3.0
+#     min_bandwidth: 0.001
+#   gpuIndices: '0'
+
+trial:
+  command: python main_f1.py
+  codeDir: .
+  gpuNum: 1

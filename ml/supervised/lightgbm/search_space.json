@@ -1,0 +1,37 @@
+{
+    "num_leaves": {
+        "_type": "randint",
+        "_value": [
+            7,
+            4095
+        ]
+    },
+    "max_depth": {
+        "_type": "randint",
+        "_value": [
+            2,
+            63
+        ]
+    },
+    "min_child_weight": {
+        "_type": "loguniform",
+        "_value": [
+            1e-2,
+            227.845
+        ]
+    },
+    "subsample": {
+        "_type": "uniform",
+        "_value": [
+            1e-1,
+            1
+        ]
+    },
+    "colsample_bytree": {
+        "_type": "uniform",
+        "_value": [
+            1e-1,
+            1
+        ]
+    }
+}

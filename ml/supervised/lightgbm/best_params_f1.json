@@ -1,0 +1,7 @@
+{
+    "num_leaves": 199,
+    "max_depth": 28,
+    "min_child_weight": 1.0818884491329583,
+    "subsample": 0.9215878635988776,
+    "colsample_bytree": 0.5137546977033982
+}
