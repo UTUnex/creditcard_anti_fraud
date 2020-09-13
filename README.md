@@ -9,13 +9,13 @@
 > 4. DL -- unsupervised  
 ## Tools  
 > 1. ML  
->>> 1). Main: scikit-learn + imbalanced learn + xgboost + lightgbm  
->>> 2). Others: category_encoders(for categorical feature encoding) + borutapy(feature selection) + hyperopt(hyperparameters tuning)
+>>> 1). Main: scikit-learn + imbalanced learn + xgboost + lightgbm(mainly focused)  
+>>> 2). Others: category_encoders(for categorical feature encoding) + borutapy(feature selection)/nni(feature selection) + nni/hyperopt(hyperparameters tuning)
 > 2. DL  
->>> 1). Main: pytorch(neural net design) + skorch(trainining)  
->>> 2). Others: category_encoders(for categorical feature encoding) + daskML(tuning) / microsoft nni(tuning + visualization & monitoring)  
+>>> 1). Main: pytorch(neural net design) + skorch(training)  
+>>> 2). Others: category_encoders(for categorical feature encoding) + microsoft nni(tuning + visualization & monitoring)/daskML(tuning)  
 >>> 3). Potential: optuna(tuning), wandb(tuning + visualization & monitoring),ray tune-sklean(tuning)
-> 3. Pyspark (future)  
+> 3. Pyspark (future work)  
 ## Code fast overview  
 > [Code for ml classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/ml/supervised/with_feature_scaling_with_feature_selection.ipynb)  
 > [Code for dl classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/dl/supervised/nni/main.py)  
