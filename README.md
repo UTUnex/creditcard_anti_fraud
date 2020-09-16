@@ -17,6 +17,7 @@
 >>> 3). Potential: optuna(tuning), wandb(tuning + visualization & monitoring),ray tune-sklean(tuning)
 > 3. Pyspark (future work)  
 ## Code fast overview  
+> [Code for EDA and preprocessing](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/eda_preprocess.ipynb)  
 > [Code for ml classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/ml/supervised/with_feature_scaling_with_feature_selection.ipynb)  
 > [Code for dl classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/dl/supervised/nni/main.py)  
 > [Code for lgbm classification](https://github.com/UTUnex/creditcard_anti_fraud/blob/master/ml/supervised/lightgbm/main_gms.py)  
